@@ -3,10 +3,37 @@
     <head> 
         <title>Recept av Yasmin</title>
         <meta charset = "utf-8">
+        <link href = "css/navigation.css" rel="stylesheet" type="text/css" />
     </head>
+    
 
-    <body>
-        <h1>Yasmins lilla kockskola</h1>
-        
+<body>
 
-    </body>
+<!--Navigation bar -->
+
+    <nav class=navigation-bar>
+        <div class="nav-mitten">
+        <div class="nav-header"> 
+            <a href="index2.html" class="loggan">
+                <img src="../img/main.jpg" alt="Yasmins Enkla Recept">
+            </a>
+            <button type="button" class="meny-ikon">
+             <i class="fas fa-align-justify"></i>
+            </button>
+            </div>
+        </div>
+    </div>
+    </nav>
+
+ <!--Länkar till menyn-->
+<header class="mainmenu">
+
+<li><a href="index2.html" class="meny">Hem</a></li>
+
+<li><a href="recept.html" class="meny">Recept</a></li>
+
+<li><a href="contacts.html"class="meny">kontakt</a></li>
+
+<li><a href="about.html" class="meny">Om</a></li>
+
+</header>
