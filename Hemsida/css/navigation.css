@@ -1,0 +1,135 @@
+html{
+   background-color: beige;
+}
+
+body{
+   margin: auto;
+   margin-top: 25px;
+   padding: 40px;
+   width: 510px;
+   background-color: antiquewhite;
+   font-family: sans-serif;
+
+}
+
+.img{
+   display:block;
+   padding: 10px;
+}
+
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   text-transform: capitalize;
+   text-decoration: none;
+}
+
+
+header .logo{
+   font-weight: bolder;
+   font-size: 25px;
+   color: black;
+}
+
+header{
+   position: fixed;
+   top: 0; 
+   left: 0; 
+   right:0;
+   background: antiquewhite;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   padding: 0px 7%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 1000;
+}
+
+header .mainmenu ul{
+   list-style: none;
+}
+
+header .mainmenu ul li{
+   position: relative;
+   float: left;
+
+
+}
+header .mainmenu ul li a{
+  font-size: 20px;
+  padding: 20px;
+  color: black;
+  display: block;
+
+}
+header .mainmenu ul li a:hover{
+background: beige;
+color: white;
+
+}
+
+header .mainmenu ul li ul{
+position: absolute;
+left: 0;
+width: 150px;
+background: white;
+display: none;
+
+
+}
+
+header .mainmenu ul li ul li{
+   width: 100%;
+   border-top: 1px solid beige;
+
+}
+
+header .mainmenu ul li ul li ul{
+   left: 200px;
+   top: 0;
+
+}
+
+
+header .mainmenu ul li:hover > ul{
+   display: initial;
+}
+
+.om{
+   margin: auto;
+   padding: 40px;
+   margin-top: 1x;
+   padding-bottom: 100x;
+   width: 510px;
+   background-color: antiquewhite;
+   font-family: sans-serif;
+}
+
+.kontakt{
+   height: 600px;
+   margin: auto;
+   padding: 50px;
+   margin-top: 1x;
+   padding-bottom: 100x;
+   width: 510px;
+   background-color: antiquewhite;
+   font-family: sans-serif;
+}
+
+p{
+   text-transform: none;
+}
+
+.pasta{
+   padding: 50px;
+   margin-right: 10px;
+   margin-top: 1px;
+   width: 510px;
+   background-color: antiquewhite;
+   font-family: sans-serif;
+}
+
+
+   
